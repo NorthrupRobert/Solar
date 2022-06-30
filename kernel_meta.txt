@@ -1,0 +1,11 @@
+\begintext
+
+    ---COMMENT BLOCK FOR THE UNINITIATED---
+    This meta file contains the relative paths to all needed SPICE kernels.
+
+\begindata
+
+KERNELS_TO_LOAD = (
+    'de432s.bsp',
+    'naif0012.tls',
+                  )
